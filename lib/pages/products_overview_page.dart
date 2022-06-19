@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:shop/widgets/products_item.dart';
 
-import '../data/database.dart';
+import '../providers/data_provider.dart';
 import '../models/product.dart';
 import '../widgets/products_item.dart';
 
 class ProductsOverviewPage extends StatelessWidget {
-  final List<Product> _products = Database.fetchData();
+  final List<Product> _products = DataProvider.fetchData();
 
   ProductsOverviewPage({Key? key}) : super(key: key);
 

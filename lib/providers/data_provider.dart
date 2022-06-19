@@ -1,6 +1,6 @@
 import '../models/product.dart';
 
-class Database {
+class DataProvider {
   static final _dummyData = [
     Product(
       id: 1010,
@@ -20,7 +20,7 @@ class Database {
     ),
     Product(
       id: 2190,
-      name: 'Scarf Amarela',
+      name: 'Escarfe Amarela',
       description:
           'Quente e aconchegante - exatamente o que você precisa para o inverno.',
       price: 19.99,
