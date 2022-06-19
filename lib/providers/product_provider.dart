@@ -3,7 +3,7 @@ import 'package:shop/models/product.dart';
 
 import './dummy_data.dart';
 
-class ProductList extends ChangeNotifier {
+class ProductProvider extends ChangeNotifier {
   final List<Product> _items = dummyData;
 
   List<Product> fetchProducts() => List<Product>.from(_items);

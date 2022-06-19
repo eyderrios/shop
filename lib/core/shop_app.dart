@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../pages/product_detail_page.dart';
 import '../pages/products_overview_page.dart';
-import '../providers/product_list.dart';
+import '../providers/product_provider.dart';
 import './app_routes.dart';
 
 class ShopApp extends StatelessWidget {
@@ -14,7 +14,7 @@ class ShopApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (_) => ProductList(),
+      create: (_) => ProductProvider(),
       child: MaterialApp(
           title: ShopApp.name,
           theme: ThemeData(
