@@ -17,5 +17,18 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
 flutter:
   uses-material-design: true
+
+fonts:
+  - family: 'Lato'
+    fonts:
+      - asset: assets/fonts/Lato-Regular.ttf
+        weigth: 400
+      - asset: assets/fonts/Lato-Bold.ttf
+        weigth: 700
+  - family: 'Anton'
+    fonts:
+      - asset: assets/fonts/Anton-Regular.ttf
+        weigth: 400
